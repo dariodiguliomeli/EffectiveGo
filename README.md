@@ -25,3 +25,16 @@ Go needs fewer parentheses than C and Java: control structures (if, for, switch)
 x<<8 + y<<16
 ```
 means what the spacing implies, unlike in the other languages.
+
+### Commentary
+> Comments that appear before top-level declarations, with no intervening newlines.
+
+```go
+package bytes
+
+// A Buffer is a variable-sized buffer of bytes with Read and Write methods.
+// The zero value for Buffer is an empty buffer ready to use.
+type Buffer struct {
+	...
+}
+```
