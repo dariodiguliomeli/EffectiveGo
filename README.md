@@ -40,8 +40,13 @@ type Buffer struct {
 ```
 
 ### Names
+
 #### Package names
 * Lowercase
 * Single word
 * The package name is the base name of its source directory
-* 
+
+### Getters
+> If you have a field called owner (lower case, unexported), the getter method should be called Owner (upper case, exported), not GetOwner.
+
+### Interfaces
