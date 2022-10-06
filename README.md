@@ -50,3 +50,5 @@ type Buffer struct {
 > If you have a field called owner (lower case, unexported), the getter method should be called Owner (upper case, exported), not GetOwner.
 
 ### Interfaces
+> By convention, one-method interfaces are named by the method name plus an -er suffix or similar modification to construct an agent noun: Reader, Writer, Formatter, CloseNotifier etc.
+
